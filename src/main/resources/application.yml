@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+app:
+  http:
+    user-agent: "AppleInterviewWeatherApp/1.0 (contact: geazioliveira@gmail.com)"
+  cache:
+    ttl-minutes: 15
+  weather:
+    forecast-days: 7
