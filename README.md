@@ -176,3 +176,13 @@ the use of `Mono` instead of `Flux` to avoid blocking the thread.
 I had another issue that is not related to the application, but with the geocoding.
 When I've made a request using my own zipcode (09260590) and the my country (BR) the Nomination didn't handle with that and returned a blank array.
 
+## Enhancements / Future Work
+
+If I had more time I would like to:
+- Add tests.
+- Add timeouts and retries with backoff.
+- Introduce a circuit breaker.
+- Add better fallback message for partial outages.
+- Improve the caching strategy.
+- Add a Rate Limiting
+- Add Observability
